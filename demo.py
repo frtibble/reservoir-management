@@ -150,7 +150,7 @@ def process_sample(sample, x, pumps, time, power, flow, costs, demand, v_init, v
 
     return pump_flow_schedule, reservoir
 
-def visualize(sample, x, v_min, v_max, v_init, num_pumps, costs, power, pump_flow_schedule, reservoir, time):
+def visualize(sample, x, v_min, v_max, v_init, num_pumps, costs, power, pump_flow_schedule, reservoir, time, demand):
     """Visualize solution as mp4 animation saved to file reservoir.mp4.
     Args:
         sample (SampleSet): Sample to process
